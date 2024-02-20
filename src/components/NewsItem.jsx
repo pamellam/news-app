@@ -1,4 +1,12 @@
 /* eslint-disable react/prop-types */
+/**
+ * NewsItem component
+ * @param {string} title - The title of the news article
+ * @param {string} description - The description of the news article
+ * @param {string} src - The source of the news article image
+ * @param {string} url - The URL of the news article
+ * @returns {JSX.Element} The news item component
+ */
 import image from '../assets/news.png';
 const NewsItem = ({ title, description, src, url }) => {
   return (

@@ -1,3 +1,12 @@
+/**
+ * @fileoverview Navbar component
+ */
+
+/**
+ * Navbar component
+ * @param {function} setCategory - function to set the category
+ * @returns {JSX.Element} navbar component
+ */
 const Navbar = ({ setCategory }) => {
   return (
     <nav
